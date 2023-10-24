@@ -9,7 +9,7 @@ const attackPlayer = function(health){
     return health -= randomDamage();
 }
 
-let logHealth = (player, health) => console.log(player + " health:" + health);
+let logHealth = (player, health) => console.log(player + " health: " + health);
 
 let logDeath = (winner, loser) => console.log(winner + " defeated " + loser);
 
